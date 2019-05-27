@@ -3,5 +3,4 @@ class UsersController < ApplicationController
         @users = User.all
         render json: @users, status: :ok
     end
-    
 end
